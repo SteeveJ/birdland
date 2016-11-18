@@ -1,0 +1,31 @@
+/* --------------------------- *\
+        Home page
+/* --------------------------- */
+
+#header{
+    background: url("../../images/bg-home.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+     
+}
+
+.header-center{
+    color: #fff;
+    padding-top: 40vh;
+}
+
+.header-center h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.header-center p{
+    font-size: 30px;
+}
+
+/* --------------------------- *\
+        Gallerie page
+/* --------------------------- */
