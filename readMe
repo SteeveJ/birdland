@@ -11,12 +11,12 @@
 ===============================
 Ajouter au début de votre <body> ou de votre container la ligne suivante pour le menu : 
 
-``` HTML
+```html
     <div id="navbar"></div>
 ```
 
 Pour le footer à la fin de votre <body> ou container :
 
-``` HTML
+```html
     <div id="footer"></div>
 ```
