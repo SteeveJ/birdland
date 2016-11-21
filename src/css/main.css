@@ -1,6 +1,61 @@
 /* --------------------------- *\
-        Home page
-/* --------------------------- */
+        All page
+\* --------------------------- */
+.navbar-default{
+    background-image: inherit;
+    background-color: inherit;
+    border-color: inherit;
+}
+
+.navbar{
+    border: inherit;
+}
+
+.navbar-custom{
+    background-color: #eee;
+}
+
+.navbar-default .navbar-brand{
+    color: #eee;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    color: #eee;
+    padding-top: 30px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #eee;
+}
+
+.navbar-default .navbar-nav > .open > a{
+    background-image: inherit;
+}
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover,
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: inherit;
+    color:#eee;
+}
+.inherit-color{
+    color: #777 !important; 
+}
+
+.navbar{
+    min-height: 90px; 
+}
+
+.link{
+    font-size: 20px;
+}
+
+/* --------------------------- *\
+            Home page
+\* --------------------------- */
 
 #header{
     background: url("../../images/bg-home.png") no-repeat center center fixed; 
@@ -25,7 +80,52 @@
 .header-center p{
     font-size: 30px;
 }
+#about .row, #service .row{
+    margin-right: inherit;
+}
+#about h2, #service h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+#about p{
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    padding-bottom: 10%;
+}
+
+#cooker{
+    background: url("../../images/home-about.png") no-repeat center top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cooker h2{
+    font-size: 45px;
+    color: #d3d3d3;
+    font-weight: bold;
+}
+
+#cooker .padding{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+#cooker a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d3d3d3;
+}
+
+#service #concert-home{
+    text-align: right;
+}
 
 /* --------------------------- *\
         Gallerie page
-/* --------------------------- */
+\* --------------------------- */
