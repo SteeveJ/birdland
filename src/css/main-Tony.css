@@ -67,7 +67,7 @@ body{
 
 #evenement {
     background-color: white;
-    width: 70%;
+    width: 98%;
     margin-left: 10px;
     border:1px ridge black;
     display: flex;
@@ -98,7 +98,27 @@ body{
 
 #droite{
     margin-left: 10px;
+    letter-spacing: 1.5px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%; 
 }
+
+/*  Ajout de classe pour espacer le text */
+#droite h3{
+    padding-top: 5%; 
+    padding-bottom: 1%;
+}
+
+#droite #time{
+    padding-bottom: 3%;
+}
+
+#droite p{
+    padding-bottom: 5%;
+}
+
+
 
 #time {
     display:flex;
