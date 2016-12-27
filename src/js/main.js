@@ -12,3 +12,16 @@ setTimeout(function() {
         $(this).scrollTop() > 25 ? $($headerTitle).addClass("inherit-color") :$($headerTitle).removeClass("inherit-color");
     });
 }, 1000);
+
+$(document).ready(function(){
+    var url = document.URL;
+    var urlSplit = url.split("/");
+    var page = urlSplit[urlSplit.length-1].split(".")[0];
+    if(page=="prochainement"){
+        console.log("Page Prochainement");
+        var pageHeight = (window.innerHeight);
+        var sizeCadre = (pageHeight-294)+"px";
+        $("#cadre").css({"height": sizeCadre});
+
+    }
+});

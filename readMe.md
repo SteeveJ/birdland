@@ -1,3 +1,9 @@
+## A propos du projet
+
+Projet fictif.
+Les restaurateurs xxx souhaite une site permettant aux client de son restaurant/bar de vivre 
+son nouveau concept entre cuisine et musique.
+
 ## Charte Graphique
 
 *Polices
@@ -14,7 +20,6 @@
 **Arrière plan : #eee
 **
 
-
 ## Source
 ======
 
@@ -23,4 +28,3 @@
 
 *Bootsrap (framework css)
 **http://getbootstrap.com/getting-started/#download
-
