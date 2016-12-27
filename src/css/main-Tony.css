@@ -1,0 +1,136 @@
+/* --------------------------- *\
+        All page
+\* --------------------------- */
+
+.navbar{
+    min-height: 80px; 
+}
+
+.link{
+    font-size: 20px;
+}
+
+#header{
+    background: url("../../images/bg-home.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+     
+}
+
+.header-center{
+    color: #fff;
+    padding-top: 40vh;
+}
+
+.header-center h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.header-center p{
+    font-size: 30px;
+}
+
+#footer .row{
+    margin-right: inherit;
+}
+
+/* --------------------------- *\
+            Artistes page
+\* --------------------------- */
+body{
+    background: url("../../images/Prochainement-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#cadre{
+    width : 80%;
+    margin : auto;
+    background: rgba(0,0,0, 0.5);
+    margin-top: 6.5em;
+    margin-bottom: 2em;
+
+}
+
+#cadre h2{
+    color: white;
+    padding-top:0.5em;
+    padding-left:0.5em;
+}
+
+#evenement {
+    background-color: white;
+    width: 70%;
+    margin-left: 10px;
+    border:1px ridge black;
+    display: flex;
+}
+
+#gauche{
+    margin-left: 15px;
+    margin-top: 15px;
+    width:160px;
+}
+
+#gauche img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height:auto;
+}
+
+.gauche-texte{
+    text-align: center;
+    font-size: 22px;
+}
+.gauche-texte strong{
+    display:block;
+    background-color: #eee;
+}
+
+#droite{
+    margin-left: 10px;
+}
+
+#time {
+    display:flex;
+}
+
+#time p{
+    margin-left: 10px;
+    display:block;
+    background-color: #eee;
+}
+
+/* --------------------------- *\
+            footer
+\* --------------------------- */
+
+#footer{
+    background-color: #645f5f;
+    color: #eee;
+}
+
+#footer p a{
+    color: #eee;
+}
+#footer p a:hover{
+    text-decoration: none;
+}
+
+#footer p.copyright{
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+#footer .row{
+    padding-top: 20px; 
+}
