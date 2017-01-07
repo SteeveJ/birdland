@@ -42,7 +42,7 @@
             Artistes page
 \* --------------------------- */
 body{
-    background: url("../../images/Prochainement-background.jpg") no-repeat center center fixed;
+    background: url("../../images/artistes-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -52,11 +52,11 @@ body{
 
 #cadre{
     width : 80%;
+    height: auto;
     margin : auto;
     background: rgba(0,0,0, 0.5);
     margin-top: 6.5em;
     margin-bottom: 2em;
-
 }
 
 #cadre h2{
@@ -65,70 +65,47 @@ body{
     padding-left:0.5em;
 }
 
-#evenement {
-    background-color: white;
-    width: 98%;
-    margin-left: 10px;
-    border:1px ridge black;
-    display: flex;
+#conteneur{
+    width:95%;
+    margin:auto;
+    padding:5px;
 }
 
-#gauche{
-    margin-left: 15px;
-    margin-top: 15px;
-    width:160px;
-}
-
-#gauche img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 140px;
-    height:auto;
-}
-
-.gauche-texte{
-    text-align: center;
-    font-size: 22px;
-}
-.gauche-texte strong{
-    display:block;
-    background-color: #eee;
-}
-
-#droite{
-    margin-left: 10px;
-    letter-spacing: 1.5px;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%; 
-}
-
-/*  Ajout de classe pour espacer le text */
-#droite h3{
-    padding-top: 5%; 
-    padding-bottom: 1%;
-}
-
-#droite #time{
-    padding-bottom: 3%;
-}
-
-#droite p{
-    padding-bottom: 5%;
-}
-
-
-
-#time {
+.element{
+    width: 665px;
+    background-color : white;
+    margin-bottom:5px;
+    padding:15px;
     display:flex;
 }
 
-#time p{
-    margin-left: 10px;
-    display:block;
-    background-color: #eee;
+
+.date{
+    margin-right:5px;
+    display:flex;
+    flex-direction: column;
 }
+
+.jour{
+    font-size:54px;
+}
+
+.mois{
+    font-size:32px;
+}
+
+.annee{
+    font-size:28px;
+}
+
+.image img{
+    width:166px;
+    margin-right:5px;
+}
+
+.texte{
+}
+
 
 /* --------------------------- *\
             footer
