@@ -107,7 +107,12 @@ body{
     list-style-type: none;
 }
 .liens a span{
+    color:#757575;
+    margin-left:5px;
+}
 
+.fa{
+    color:black;
 }
 
 
