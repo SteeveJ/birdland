@@ -103,8 +103,13 @@ body{
     margin-right:5px;
 }
 
-.texte{
+.liens{
+    list-style-type: none;
 }
+.liens a span{
+
+}
+
 
 
 /* --------------------------- *\
