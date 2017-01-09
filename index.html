@@ -5,6 +5,8 @@
     <title>Birdland</title>
     <link rel="stylesheet" href="src/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="src/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="src/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="src/css/generale.css"/>
     <link rel="stylesheet" href="src/css/main.css"/>
 </head>
 <body>
@@ -21,7 +23,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Birdland</a>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt="logo"/></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,21 +33,21 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restaurant<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="./views/fake/menuClassique.html">Menu classique</a></li>
-                                    <li><a href="#">Menu spécial</a></li>
+                                    <li><a href="./fake/menuClassique.html">Menu classique</a></li>
+                                    <li><a href="./menuSpecial.html">Menu spécial</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Gallerie photo</a></li>                                
+                                    <li><a href="./fake/gallery.html">Gallerie photo</a></li>                                
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Evènements<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Prochainement</a></li>
-                                    <li><a href="#">Les artistes</a></li>                                
+                                    <li><a href="./prochainement.html">Prochainement</a></li>
+                                    <li><a href="./artistes.html">Les artistes</a></li>                                
                                 </ul>
                             </li>
-                            <li><a href="#">Avis</a></li>
-                            <li><a href="#">Information</a></li>
+                            <li><a href="./fake/avis.html">Avis</a></li>
+                            <li><a href=".informations.html">Information</a></li>
                             
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -56,7 +58,7 @@
         <div id="header" >
             <div class="text-center header-center">
                 <h1>Birdland</h1>
-                <p>(phrase d'accroche ou citation)</p>
+                <p>Les épices permettent de faire chanter et danser les cuisines du monde.</p>
             </div>
         </div>
         <!--end header-->
@@ -65,35 +67,26 @@
             <div class="row">
                 <div class="col-md-push-2 col-md-8 padding">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Maiores, beatae inventore iure sapiente, neque perferendis vel nesciunt obcaecati
-                        ipsa in commodi quod, hic minima ipsam earum voluptatum natus eum laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repellendus accusamus 
-                        expedita incidunt. Dolorem illum odit aspernatur velit, esse quam hic fuga, ut perferendis
-                        id maiores consectetur dignissimos ex tempore?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Maiores, beatae inventore iure sapiente, neque perferendis vel nesciunt obcaecati
-                        ipsa in commodi quod, hic minima ipsam earum voluptatum natus eum laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repellendus accusamus 
-                        expedita incidunt. Dolorem illum odit aspernatur velit, esse quam hic fuga, ut perferendis
-                        id maiores consectetur dignissimos ex tempore?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Maiores, beatae inventore iure sapiente, neque perferendis vel nesciunt obcaecati
-                        ipsa in commodi quod, hic minima ipsam earum voluptatum natus eum laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repellendus accusamus 
-                        expedita incidunt. Dolorem illum odit aspernatur velit, esse quam hic fuga, ut perferendis
-                        id maiores consectetur dignissimos ex tempore?
+                        Le bar à vin a été créée en 1970, par Auguste DesViles. <br/> <br/>
+                        En 1995, il me céda le bar à vins. Où j'ai conçu mon restaurant tous en gardant le concept de bar à
+                        vins pour les anciens clients, car sans eux le birdland ne serait pas ce qu'il est actuellement. 
+                        Pour cela nous les faisons vivre chaque jour l'évolution du birdland. <br/> <br/>
+                        Aujourd'hui, nous souhaitons faire vivre notre gastronomie avec vous, en vous portant avec quelques
+                        notes de musique dans un nouvel environnement encore plus classe et rempli de d'émotion et sensation nouvelle pour vos oreilles et votre palet.
                     </p>
+                    <p class="right">Ibrahim Ferrer</p>
                 </div>
             </div>
         </div>
         <!--end div about-->
         <!--start div cooker-->
         <div id="cooker">
-            <div class="padding text-center">
-            <h2>Notre restaurant</h2>
-            <!--add link to restaurant or menu-->
-            <a href="" class="link">A propos</a>
+            <div class="filter">
+                <div class="padding text-center">
+                <h2>Notre restaurant</h2>
+                <!-- Add link to restaurant or menu-->
+                <a href="" class="link">A propos</a>
+                </div>
             </div>
         </div>
         <!--end div cooker-->
@@ -111,13 +104,10 @@
                             <div class="col-xs-12 col-sm-6 col-sm-offset-1">
                                 <h3>Restaurant & Bar à vin</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Quisquam molestiae et nihil aliquid pariatur unde laudantium, 
-                                    ullam ex, sit, exercitationem voluptates neque provident. 
-                                    Dolorum id consequuntur sint provident ducimus excepturi?
+                                    Faite votre choix parmis nos plats divers et varié que vous pourrez marier avec notre selection de vins. En n'oubliant pas notre carte de menu dédié au soirée.
                                 </p>
                                 <!--TODO : add link menu-->
-                                <p><a href="#">Notre menu</a></p>                                
+                                <p><a href="./fake/menuClassique.html">Notre menu</a></p>                                
                             </div>
                         </div>
                     </div>
@@ -127,13 +117,10 @@
                         <div class="col-xs-12 col-sm-7 col-md-push-1">
                             <h3>Evenement</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Quisquam molestiae et nihil aliquid pariatur unde laudantium, 
-                                ullam ex, sit, exercitationem voluptates neque provident. 
-                                Dolorum id consequuntur sint provident ducimus excepturi?
+                                Pour mieux vous accompagner chaque soir lors de vos dégustations nous mettons à votre disposition des évènenements musicaux lors de nos soirée. Où des musiciens talentieux vous ferons découvrir leurs arts.
                             </p>
                             <!--TODO : add link event-->
-                            <p><a href="#">Nos évenements</a></p>
+                            <p><a href="./fake/event.html">Nos évenements</a></p>
                         </div>
                         <div class="col-xs-12 col-sm-3 col-sm-push-1"> 
                                 <img src="./images/home-service-musician.png" alt="les évènements" width="100%"/>
@@ -163,7 +150,7 @@
         </div>
         <h3 class="text-center">
             <!--TODO : add link gallery-->
-            <a href="#">Plus d'image</a>
+            <a href="./fake/gallery.html">Plus d'image</a>
         </h3>
     </div>
     <!--<div id="contact">
@@ -193,19 +180,20 @@
         <div class="row">
             <div class="col-sm-3 col-sm-offset-3 col-xs-offset-1">
                 <!--TODO : add link-->
-                <p><a href="#restaurant">Le restaurant</a></p>
-                <p><a href="#event">Nos évènements</a></p>
-                <p><a href="#avis">Nos avis</a></p>
-                <p><a href="#menuC">Notre menu Classique</a></p>
+                <p><a href="./index.html">Accueil</a></p>
+                <p><a href="./fake/gallery.html">Gallerie photo</a></p>
+                <p><a href="./fake/menuClassique.html">Menu classique</a></p>
+                <p><a href="./menuSpecial.html">Menu Spécial</a></p>
             </div>
-            <div class="col-sm-3 col-sm-offset-1">
-                <p><a href="#restaurant">Le restaurant</a></p>
-                <p><a href="#event">Nos évènements</a></p>
-                <p><a href="#avis">Nos avis</a></p>
-                <p><a href="#menuC">Notre menu Classique</a></p>
+            <div class="col-sm-3 col-sm-offset-1">   
+                <p><a href="./informations.html">Nos avis</a></p>
+                <p><a href="./fake/event.html">L'évènement du jours</a></p>
+                <p><a href="./artistes.html">Les artistes</a></p>
+                <p><a href="./prochainement.html">Prochainement</a></p>
             </div>
         </div>
-        <p class="text-center copyright">© copyright 2016-2017</p>
+        <p class="text-center copyright">© copyright 2016-2017 <span class="footer-logo"><i class="fa fa-pinterest-square" aria-hidden="true"></i> <i class="fa fa-facebook-square" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+</p>
     </div>
 
     <!--end container-fluid-->

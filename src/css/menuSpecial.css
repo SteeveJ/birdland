@@ -1,0 +1,213 @@
+/* --------------------------- *\
+        All page
+\* --------------------------- */
+.navbar-default{
+    background-image: inherit;
+    background-color: inherit;
+    border-color: inherit;
+}
+
+.navbar{
+    border: inherit;
+}
+
+.navbar-custom{
+    background-color: #eee;
+}
+
+.navbar-default .navbar-brand{
+    color: grey;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    color: grey;
+    padding-top: 30px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #eee;
+}
+
+.navbar-default .navbar-nav > .open > a{
+    background-image: inherit;
+}
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover,
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: inherit;
+    color:#eee;
+}
+.inherit-color{
+    color: #777 !important; 
+}
+
+.navbar{
+    min-height: 80px; 
+}
+
+.link{
+    font-size: 20px;
+}
+
+
+
+/* --------------------------- *\
+            Home page
+\* --------------------------- */
+
+#header{
+    background: url("../../images/bg-menu.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+     
+}
+
+.header-center{
+    color: grey;
+    padding-top: 40vh;
+}
+
+.header-center h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.header-center p{
+    font-size: 30px;
+}
+#about .row, #service .row, #gallery-home .row, #footer .row{
+    margin-right: inherit;
+}
+#about h2, #service h2, #gallery-home h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+#about p{
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    padding-bottom: 10%;
+}
+#about{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#cooker{ 
+    background-color: grey;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cooker h2{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+#cooker .padding{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+#cooker a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d3d3d3;
+}
+
+#menu1
+{
+    list-style-type: none;
+}
+
+#menu2
+{
+    list-style-type: none;
+}
+
+#service #concert-home{
+    text-align: right;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#service p{
+    font-size: 18px;
+}
+
+#service h3{
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+
+#service #restaurant-home h3 ,#service #concert-home h3{
+    font-weight: bold;
+}
+
+#service #restaurant-home .col-md-7,#service #concert-home .col-md-7{
+    padding-top: 5%;
+}
+
+#service #restaurant-home{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+/* --------------------------- *\
+        Gallerie page
+\* --------------------------- */
+#gallery-home .col-md-3{
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
+#gallery-home{
+    margin-bottom: 4%;
+}
+
+
+/* --------------------------- *\
+            contact
+\* --------------------------- */
+
+
+
+/* --------------------------- *\
+            footer
+\* --------------------------- */
+
+#footer{
+    background-color: #645f5f;
+    color: #eee;
+}
+
+#footer p a{
+    color: #eee;
+}
+#footer p a:hover{
+    text-decoration: none;
+}
+
+#footer p.copyright{
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+#footer .row{
+    padding-top: 20px; 
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Menu Spécial</title>
+    <link rel="stylesheet" href="src/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="src/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="src/css/menuSpecial.css"/>
+</head>
+<body>
+    
+    <div class="container-fluide">
+        <div id="navbar">
+             <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Birdland</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="./index.html">Accueil</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restaurant<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./views/fake/menuClassique.html">Menu classique</a></li>
+                                    <li><a href="#">Menu spécial</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Gallerie photo</a></li>                                
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Evènements<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./prochainement.html">Prochainement</a></li>
+                                    <li><a href="#">Les artistes</a></li>                                
+                                </ul>
+                            </li>
+                            <li><a href="#">Avis</a></li>
+                            <li><a href="./informations.html">Information</a></li>
+                            
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav> 
+        </div>
+        <!--header-->
+        <div id="header" >
+            <div class="text-center header-center">
+                <h1>Menu spécial</h1>
+                <p>Bienvenue aux soirées bouche à oreille</p>
+            </div>
+        </div>
+        <!--end header-->
+        <!--start div cooker-->
+        <div id="cooker">
+            <div class="padding text-center">
+            <h2>Thème du mois : La Corée</h2>
+            <!--add link to restaurant or menu-->
+            </div>
+        </div>
+        <!--end div cooker-->
+        <!--start div service-->
+        <div id="service">
+            <h2>La carte</h2>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="restaurant-home">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3 col-sm-offset-1">
+                                <img src="./images/flag.png" alt="flag" width="100%"/>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+                                <h3>Nos plats Coréen</h3>
+                                <p>
+                                    <ul id="menu1">
+                                        <li>Yukgaejang 육개장 marmite de boeuf aux épices coréennes.................................16,50 €
+                                        </li>
+                                        <li>Toukboul 뚝불고기 marmite de boeuf mariné aux légumes.....................................16,00 €
+                                        </li>
+                                        <li>Kimchi Jjigé 김치찌개 marmite de Kimchi et viande de porc...................................16,00 €
+                                        </li>
+                                    </ul>
+                                </p>
+                                <!--TODO : add link menu-->
+                                <p><a href="#">Notre menu classique</a></p>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div id="concert-home">
+                        <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+                            <h3>Nos vins Coréen</h3>
+                            <p>
+                                <ul id="menu2">
+                                    <li>Majuang, 마주앙..........................................................15€</li>
+                                    <li>Château Mani, 샤또마니..............................................20€</li>
+                                    <li>Grand coteau, 그랑꼬또...............................................22€</li>
+                                    <li>Luciole Vin, 루시올 뱅..................................................25€</li>
+                                </ul>
+                            </p>
+                            <!--TODO : add link event-->
+                            <p><a href="#">Nos vins classique</a></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-sm-push-1"> 
+                                <img src="./images/wine.jpg" alt="les évènements" width="100%"/>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end div service-->
+        <div id="gallery-home">
+            <h2>Gallerie</h2>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <img src="./images/plat1.jpg" alt="plat1" width="100%"/>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <img src="./images/plat2.jpg" alt="plat2" width="100%"/>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <img src="./images/plat3.jpg" alt="plat3" width="100%"/>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <img src="./images/plat4.jpg" alt="plat4" width="100%"/>
+                </div>
+            </div>
+        </div>
+        <h3 class="text-center">
+            <!--TODO : add link gallery-->
+            <a href="#">Plus d'image</a>
+        </h3>
+    </div>
+    <!--<div id="contact">
+       <h2 class="text-center">Contact</h2>
+       <div class="row">
+           <div class="col-xs-offset-2 col-xs-8">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Votre nom : </label>
+                        <input type="text" class="form-control" id="name" placeholder="nom/prenom">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="textarea" id="message" class="textaera"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Envoyer</button>
+                </form>
+           </div>
+       </div> 
+    </div>-->
+    <div id="footer">
+        
+        <div class="row">
+            <div class="col-sm-3 col-sm-offset-3 col-xs-offset-1">
+                <!--TODO : add link-->
+                <p><a href="#restaurant">Le restaurant</a></p>
+                <p><a href="#event">Nos évènements</a></p>
+                <p><a href="#avis">Nos avis</a></p>
+                <p><a href="#menuC">Notre menu Classique</a></p>
+            </div>
+            
+        </div>
+        <p class="text-center copyright">© copyright 2016-2017</p>
+    </div>
+
+    <!--end container-fluid-->
+    <script src="src/js/jquery.min.js"></script>
+    
+    <script src="src/js/main.js"></script>
+    <script src="src/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="src/mixitup-master/build/jquery.mixitup.min.js"></script>
+</body>
+</html>
