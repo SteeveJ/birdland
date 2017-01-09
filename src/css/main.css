@@ -82,7 +82,7 @@
 .header-center p{
     font-size: 30px;
 }
-#about .row, #service .row, #gallery-home .row, #footer .row{
+#about .row, #service .row, #gallery-home .row, #footer .row, #contact .row{
     margin-right: inherit;
 }
 #about h2, #service h2, #gallery-home h2{
@@ -113,7 +113,7 @@
 
 #cooker h2{
     font-size: 45px;
-    color: red;
+    color: #d3d3d3;
     font-weight: bold;
 }
 
@@ -200,4 +200,8 @@
 
 #footer .row{
     padding-top: 20px; 
+}
+
+#cooker .filter{
+    background-color: rgba(0, 0,0, 0.55)
 }

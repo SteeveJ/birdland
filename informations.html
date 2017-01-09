@@ -5,10 +5,13 @@
     <title>Informations</title>
     <link rel="stylesheet" href="src/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="src/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="src/css/informations.css"/>
+    <link rel="stylesheet" href="src/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="src/css/generale.css"/>
+    <link rel="stylesheet" href="src/css/contact.css"/>
+    
 </head>
 <body>
-    
+   
     <div class="container-fluide">
         <div id="navbar">
              <nav class="navbar navbar-default navbar-fixed-top">
@@ -21,7 +24,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Birdland</a>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt="logo"/></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,135 +34,105 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restaurant<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="./views/fake/menuClassique.html">Menu classique</a></li>
+                                    <li><a href="./fake/menuClassique.html">Menu classique</a></li>
                                     <li><a href="./menuSpecial.html">Menu spécial</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Gallerie photo</a></li>                                
+                                    <li><a href="./fake/gallery.html">Gallerie photo</a></li>                                
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Evènements<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="./prochainement.html">Prochainement</a></li>
-                                    <li><a href="#">Les artistes</a></li>                                
+                                    <li><a href="./artistes.html">Les artistes</a></li>                                
                                 </ul>
                             </li>
-                            <li><a href="#">Avis</a></li>
-                            <li><a href="./informations.html">Information</a></li>
+                            <li><a href="./fake/avis.html">Avis</a></li>
+                            <li><a href="informations.html">Information</a></li>
                             
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav> 
         </div>
-        <!--header-->
-        <div id="header" >
-            <div class="text-center header-center">
-                <h1>Nous contacter</h1>
-                <p>Bienvenue aux soirées bouche à oreille</p>
-            </div>
-        </div>
-        <!--end header-->
+        
         <!--start div cooker-->
-        <div id="cooker">
-            <div class="padding text-center">
-            <h2>Téléphone</h2>
-            <!--add link to restaurant or menu-->
-            <a href="" class="link">09.96.09.76.48</a>
-            <h2>Mail</h2>
-            <!--add link to restaurant or menu-->
-            <a href="" class="link">contact@birdland.com</a>
-            <h2>Adresse</h2>
-            <a href="" class="link">26, quai de la Garonne</a>
-        </div>
+        <div id="contact">
+            <h2 class="text-center title">Contact</h2>
+            
+            <div class="row form">
+                <div class="col-md-offset-4 col-md-4">
+                    <p>Pour tous renseignement complémentaire, soucis rencontrer ou autre demander veuiller nous contacter grâce à ce formulaire votre demande sera traité dans les plus bref delai.</p>
+                     <form>
+                        <div class="form-group">
+                            <label for="email">Email :</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Nom et prénom :</label>
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Votre numéro de téléphone :</label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="form-group">
+                            <label for="msg">Message :</label>
+                            <textarea id="sg" class="form-control" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Envoyer</button>
+                    </form>
+                </div>
+            </div>
 
             <div class="row">
-                <div>
-                    <img src="./images/map.png" alt="map" width="100%"/>
+                <div class="col-sm-6">
+                
+                <div class="padding text-center">
+                <div class="contact">
+                    <h2>Numero pour réserver une table : </h2>
+                <!--add link to restaurant or menu-->
+                <p>09.96.09.76.48</p>
+               
+                <h2>Adresse</h2>
+                <a href="" class="link">26, quai de la Garonne</a>
                 </div>
-            </div>
-            </div>
-        
-    </div>
-    <div id="service">
-            <h2>Réseaux sociaux</h2>
+           </div>
+
             
-            <div class="row">
-                <div class="col-xs-12">
-                    <div id="restaurant-home">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-3 col-sm-offset-1">
-                                <img src="./images/facebook.png" alt="facebook" width="100%"/>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-sm-offset-1">
-                                <h3>Facebook</h3>
-                                <p>
-                                    Vous voulez nous suivre sur Facebook pour rester informé des differents événements qui se déroulerons à Birdland et assister en live au concert de nos artistes invités en direct?
-                                </p>
-                                <!--TODO : add link menu-->
-                                <p><a href="#">Cliquez ici</a></p>                                
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="col-xs-12">
-                    <div id="concert-home">
-                        <div class="col-xs-12 col-sm-7 col-md-push-1">
-                            <h3>Twitter</h3>
-                            <p>
-                                Vous voulez suivre notre actualité sur Twitter?
-                            </p>
-                            <!--TODO : add link event-->
-                            <p><a href="#">Cliquez ici</a></p>
-                        </div>
-                        <div class="col-xs-12 col-sm-3 col-sm-push-1"> 
-                                <img src="./images/twitter.png" alt="twitter" width="100%"/>
-                        </div>
-                        
+                <div class="col-sm-6">
+                    <div class="map">
+                        <img src="./images/map.png" alt="map" width="100%"/>
                     </div>
                 </div>
             </div>
         </div>
-    <!--<div id="contact">
-       <h2 class="text-center">Contact</h2>
-       <div class="row">
-           <div class="col-xs-offset-2 col-xs-8">
-                <form>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Votre nom : </label>
-                        <input type="text" class="form-control" id="name" placeholder="nom/prenom">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea name="textarea" id="message" class="textaera"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-default">Envoyer</button>
-                </form>
-           </div>
-       </div> 
-    </div>-->
-    <div id="footer">
+        
+    </div>
+    
+
+
+
+     <div id="footer">
         
         <div class="row">
             <div class="col-sm-3 col-sm-offset-3 col-xs-offset-1">
                 <!--TODO : add link-->
-                <p><a href="#restaurant">Le restaurant</a></p>
-                <p><a href="#event">Nos évènements</a></p>
-                <p><a href="#avis">Nos avis</a></p>
-                <p><a href="#menuC">Notre menu Classique</a></p>
+                <p><a href="./index.html">Accueil</a></p>
+                <p><a href="./fake/gallery.html">Gallerie photo</a></p>
+                <p><a href="./fake/menuClassique.html">Menu classique</a></p>
+                <p><a href="./menuSpecial.html">Menu Spécial</a></p>
             </div>
-            <div class="col-sm-3 col-sm-offset-1">
-                <p><a href="#restaurant">Le restaurant</a></p>
-                <p><a href="#event">Nos évènements</a></p>
-                <p><a href="#avis">Nos avis</a></p>
-                <p><a href="#menuC">Notre menu Classique</a></p>
+            <div class="col-sm-3 col-sm-offset-1">   
+                <p><a href="./informations.html">Nos avis</a></p>
+                <p><a href="./fake/event.html">L'évènement du jours</a></p>
+                <p><a href="./artistes.html">Les artistes</a></p>
+                <p><a href="./prochainement.html">Prochainement</a></p>
             </div>
         </div>
-        <p class="text-center copyright">© copyright 2016-2017</p>
+        <p class="text-center copyright">© copyright 2016-2017 <span class="footer-logo"><i class="fa fa-pinterest-square" aria-hidden="true"></i> <i class="fa fa-facebook-square" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+</p>
     </div>
 
     <!--end container-fluid-->

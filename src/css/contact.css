@@ -1,0 +1,39 @@
+.row{
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
+#footer{
+    background-color: #645f5f;
+    color: #eee;
+}
+
+#footer p a{
+    color: #eee;
+}
+#footer p a:hover{
+    text-decoration: none;
+}
+
+#footer p.copyright{
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+#footer .row{
+    padding-top: 20px; 
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 5%;
+    font-size: 45px;
+}
+
+.form{
+    margin-bottom: 5%;
+}
+
+.contact{
+    margin-top: 10%;
+}

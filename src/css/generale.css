@@ -9,3 +9,16 @@
     height: 64px;
     width: 64px;
 }
+
+.right{
+    text-align: right;
+}
+
+.fa .fa-facebook-square{
+    color: blue;
+}
+
+
+#contact{
+    padding-top: 80px;
+}
