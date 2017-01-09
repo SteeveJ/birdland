@@ -94,6 +94,7 @@ body{
 .gauche-texte strong{
     display:block;
     background-color: #eee;
+	margin-bottom:10px;
 }
 
 #droite{
@@ -128,6 +129,18 @@ body{
     margin-left: 10px;
     display:block;
     background-color: #eee;
+}
+
+.fa{
+    color:black;
+}
+
+.liens{
+    list-style-type: none;
+}
+.liens a span{
+    color:#757575;
+    margin-left:5px;
 }
 
 /* --------------------------- *\
