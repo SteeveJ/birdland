@@ -17,7 +17,7 @@ $(document).ready(function(){
     var url = document.URL;
     var urlSplit = url.split("/");
     var page = urlSplit[urlSplit.length-1].split(".")[0];
-    if(page=="prochainement" || page=="artistes"){
+    if(page=="prochainement"){
         console.log("Page Prochainement");
         var pageHeight = (window.innerHeight);
         var sizeCadre = (pageHeight-294)+"px";
